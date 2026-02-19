@@ -18,6 +18,11 @@ To use Suspense for fallback UI
 To improve performance using code splitting
 🔄 Loading State
 Before the dashboard loads, a fallback message is displayed:
+<img width="1904" height="890" alt="Screenshot 2026-02-19 095436" src="https://github.com/user-attachments/assets/68ff12aa-89c0-4ad5-b485-406abf13259f" />
+
+<img width="1892" height="880" alt="Screenshot 2026-02-19 095535" src="https://github.com/user-attachments/assets/150ecac0-5794-4410-a421-c08765667f5d" />
+
+
 
 Dashboard Loading
 
@@ -58,6 +63,12 @@ To use Suspense for each page
 To understand performance optimization in multi-page apps
 🖥 Application Screenshots
 🔄 Loading State (While Navigating Between Pages)
+
+<img width="1915" height="883" alt="Screenshot 2026-02-19 095443" src="https://github.com/user-attachments/assets/4b644735-ea56-4e6c-8985-bef3342127fd" />|
+
+<img width="1892" height="880" alt="Screenshot 2026-02-19 095535" src="https://github.com/user-attachments/assets/571358e4-bd75-4b67-b5fd-a2c9abfa0c78" />
+
+
 Route Loading
 
 🏠 Home Page
