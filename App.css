@@ -1,0 +1,140 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  box-sizing: border-box;
+}
+
+.dashboard {
+  max-width: 960px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 24px 24px 32px;
+  box-shadow: 0 20px 40px -20px rgba(15, 23, 42, 0.25);
+  color: #111827;
+  box-sizing: border-box;
+}
+
+.dashboard-header {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.dashboard-title {
+  margin: 0 0 4px;
+  font-size: 2rem;
+  color: #111827;
+}
+
+.dashboard-subtitle {
+  margin: 0;
+  color: #2760c3;
+  font-size: 0.95rem;
+}
+
+.dashboard-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px 0 26px;
+  padding: 8px 10px;
+  background-color: #f3f4f6;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+}
+
+.nav-link {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: #ce5378;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease,
+    box-shadow 0.1s ease, border-color 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #5baba8;
+  border-color: #d1d5db;
+  box-shadow: 0 4px 10px rgba(148, 163, 184, 0.4);
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  background: linear-gradient(135deg, #3b82f6, #22c55e);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.dashboard-content.single-section {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 16px 18px 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  box-sizing: border-box;
+}
+
+.section {
+  text-align: left;
+}
+
+.section-title {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 6px;
+}
+
+.section-text {
+  margin: 6px 0;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-pill {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #e5f2ff;
+  color: #1d4ed8;
+  font-size: 0.85rem;
+  border: 1px solid #bfdbfe;
+}
+
+@media (max-width: 640px) {
+  .dashboard {
+    padding: 20px 16px 24px;
+  }
+
+  .dashboard-title {
+    font-size: 1.6rem;
+  }
+}
