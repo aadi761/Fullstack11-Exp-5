@@ -1,5 +1,5 @@
-📌 Experiment 5.1
-Lazy Loading of a Dashboard Component in React
+**Experiment 5.1**
+**Lazy Loading of a Dashboard Component in React**
 Lazy loading is a performance optimization technique used in modern web applications to load components only when they are required instead of loading everything at the initial application startup. This helps reduce the initial bundle size, improves loading speed, and enhances overall user experience.In this experiment, lazy loading is implemented for a Dashboard component in a React application. The Dashboard component contains multiple sections such as a title section, skills list, and an about section, all displayed using a structured card-based user interface. The Dashboard component is dynamically imported using React.lazy() and rendered using the Suspense component provided by React. While the component is being loaded, a fallback loading message is displayed to inform the user that the component is in the process of loading.
 This approach ensures efficient resource utilization and improves application performance by loading components only when needed.
 
@@ -42,12 +42,9 @@ Learned dynamic imports in React.
 Understood Suspense usage.
 Applied lazy loading for performance optimization.
 Built a structured and reusable component.
-🚀 Conclusion – Experiment 1
-This experiment successfully demonstrates lazy loading of a single component in React.
-It improves application performance by reducing the initial load size and enhances user experience with a fallback loading state.
+ 
 
-
-📌 Experiment 5.2
+** Experiment 5.2**
 Route-Based Lazy Loading using React Router
 📖 Overview
 This experiment extends lazy loading to a multi-page React application using React Router.
@@ -74,31 +71,25 @@ To understand performance optimization in multi-page apps
 
 Route Loading
 
-🏠 Home Page
 Home Page
-
-📄 About Page
 About Page
-
-📞 Contact Page
 Contact Page
 
-📊 Observations
+** Observations**
 Pages load only when visited.
 Navigation occurs without full page refresh.
 Suspense displays loading feedback during component load.
 Route-based lazy loading improves scalability.
-🎓 Learning Outcomes
+**
+Learning Outcomes**
 Implemented route-based lazy loading.
 Used React Router with dynamic imports.
 Improved performance in multi-page applications.
 Structured scalable React project architecture.
-🚀 Conclusion – Experiment 2
-The route-based lazy loading experiment successfully demonstrates how React Router and dynamic imports can be combined to build optimized multi-page applications.
-
+  
 This approach enhances performance, reduces initial load time, and ensures smooth navigation across routes.
 
-🛠 Technologies Used
+**Technologies Used**
 React JS
 Vite
 React Router DOM
